@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEBA17;
+    color: #F8F4E1;
+    padding: 0px 5%;
+}
+.header-genre-container{
+    display: flex;
+    align-items: center;
+}
+.header-genre{
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid black;
+    font-weight: 900;
+    font-size: 25px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 900;
+}
